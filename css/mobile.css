@@ -1,0 +1,58 @@
+@media (max-width: 767px) {
+  /* banner */
+  #banner img {
+    height: 60vh;
+  }
+  .bieutuong {
+    padding-bottom: 30px;
+  }
+  #nav-bar .container {
+    flex-direction: column;
+  }
+  #nav-bar .container a {
+    text-align: left;
+    border: none;
+  }
+  #nav-bar .container > * {
+    width: 100%;
+  }
+  .text-nav {
+    display: none;
+  }
+  #muctieu,
+  #chitiet,
+  .certi,
+  .certi-item,
+  .duan {
+    grid-template-columns: 1fr;
+  }
+  #target p {
+    margin: 0;
+  }
+  .job {
+    margin-right: 0;
+  }
+  .certi-item {
+    row-gap: 20px;
+  }
+  #job-info .container {
+    padding: 0 20px;
+  }
+  .project-item {
+    margin-bottom: 20px;
+  }
+  .certi .anh2 {
+    padding-left: 0;
+    border: none;
+  }
+  .footer-text p {
+    display: none;
+  }
+  .text-banner {
+    transform: translateY(-50%);
+  }
+  #footer .container {
+    justify-content: center;
+    padding: 30px;
+  }
+}

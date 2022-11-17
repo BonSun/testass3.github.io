@@ -1,0 +1,35 @@
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* nav bar  */
+  .container .text-nav {
+    display: none;
+  }
+  #chitiet {
+    grid-template-columns: 1fr 1fr;
+  }
+  .text-banner {
+    transform: translateY(-150%);
+  }
+  .certi-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .certi .certi-item:nth-child(1) {
+    border-right: 0.1px solid sandybrown;
+  }
+  .certi .anh2 {
+    border: none;
+    padding-left: 0;
+  }
+  .project-item {
+    padding: 0px;
+  }
+  .row a,
+  .row div {
+    width: 15%;
+  }
+  #footer .container {
+    justify-content: center;
+    padding: 30px 230px 30px 230px;
+  }
+}
